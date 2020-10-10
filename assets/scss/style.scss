@@ -1,18 +1,27 @@
 @import "bootstrap.scss" ;
 
 
-$font-family-sans-serif:
-  -apple-system;
+$font-family-sans-serif: -apple-system;
 
-  .header {
-    margin-right: 50%;
-    margin-top: 60px;
-    background-color: black;
-    height: 30px;
-  }
+.header {
+  margin-right: 50%;
+  margin-top: 60px;
+  background-color: black;
+  height: 30px;
+}
 
-  .abc {
+.abc {
 
-    background-image: url("https://cdnm.westwing.com/image/upload/v0716092217/contenthub/app/uploads/fr/2020/04/22153614/1-scaled-e1587564780508-1.jpg");
+  background-image: url("https://cdnm.westwing.com/image/upload/v0716092217/contenthub/app/uploads/fr/2020/04/22153614/1-scaled-e1587564780508-1.jpg");
 
-  }
+}
+
+.border-black {
+  border: 5px black solid;
+  position: relative;
+  left: -363px;
+}
+
+@include media-breakpoint-up(sm) { 
+    
+ }
