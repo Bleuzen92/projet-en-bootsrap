@@ -19,12 +19,34 @@ $font-family-sans-serif: -apple-system;
 .border-black {
   border: 5px black solid;
   position: relative;
-  left: -363px;
-}
+} 
 
-@include media-breakpoint-up(sm) { 
-    
+@include media-breakpoint-down(xl) { 
+  .border-black {
+    left: -363px;
+  }
  }
+
+@include media-breakpoint-down(lg) { 
+  .border-black {
+    left: -318px;
+  }
+ }
+ 
+
+@include media-breakpoint-down(md) { 
+  .border-black {
+    left: -258px;
+  }
+ }
+
+@include media-breakpoint-down(sm) { 
+  
+  .border-black {
+    left: -213px;
+  }
+
+}
 
 .taille {
   font-size: 80px;

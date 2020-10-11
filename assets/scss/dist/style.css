@@ -9907,9 +9907,27 @@ h3 {
 .border-black {
   border: 5px black solid;
   position: relative;
+}
+
+.border-black {
   left: -363px;
 }
 
+@media (max-width: 1199.98px) {
+  .border-black {
+    left: -318px;
+  }
+}
+@media (max-width: 991.98px) {
+  .border-black {
+    left: -258px;
+  }
+}
+@media (max-width: 767.98px) {
+  .border-black {
+    left: -213px;
+  }
+}
 .taille {
   font-size: 80px;
 }
