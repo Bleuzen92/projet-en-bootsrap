@@ -25,3 +25,7 @@ $font-family-sans-serif: -apple-system;
 @include media-breakpoint-up(sm) { 
     
  }
+
+.taille {
+  font-size: 80px;
+}
